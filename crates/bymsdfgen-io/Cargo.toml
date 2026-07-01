@@ -1,0 +1,18 @@
+[package]
+name = "bymsdfgen-io"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "Pure-Rust I/O for the bymsdfgen msdf generator: font loading (ttf-parser), image output, shape descriptions, SVG import"
+keywords.workspace = true
+categories.workspace = true
+repository.workspace = true
+homepage.workspace = true
+rust-version.workspace = true
+readme = "../../README.md"
+
+[dependencies]
+bymsdfgen-core.workspace = true
+ttf-parser.workspace = true
+png.workspace = true
